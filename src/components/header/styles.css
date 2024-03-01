@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/toruksc'); 
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 62, 141);
+}
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 25px;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'TorukSC', sans-serif;
+}
+
+li:hover {
+    color: #3cd216;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
